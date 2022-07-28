@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- logo
+<p align="center">
+  <img src="#"   width="175px" alt="In Progress" />
+</p> -->
 
-## Getting Started
+<p align="center">
+ <a href="#Worldtrip">Sobre</a> •
+ <a href="#-layout">Layout</a>  •
+ <a href="#-como-executar-o-projeto">Como executar o projeto</a>  •
+ <a href="#-tecnologias">Tecnologias</a>
+</p>
 
-First, run the development server:
+# Worldtrip
+
+<p align="center">
+  <img  src="./github/#" width="200px" alt="Logo worldtrip" />
+</p>
+
+Projeto para colocar em prática habilidades do NextJS e ChakraUI. <br />
+Objetivo é criar um produto para fornece viagens, informando assim o usuário sobre seu destino.
+
+<h4 align="center"> 🚧 Worldtrip 🚀 Em construção 🚧 </h4>
+<!-- <h4 align="center"> 🚧 Worldtrip ✅ Concluído 🚧 </h4> -->
+
+## 🎨 Layout
+
+<!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 8px ">
+  <img src="./github/#" width="50%" alt="#" />
+  <img src="./github/#" width="50%" alt="#" />
+  <img src="./github/#" width="50%" alt="#" />
+</p> -->
+
+<a href="https://www.figma.com/file/LkxnIU9mg86SqrV6QBsRvw/Worldtrip?node-id=0%3A1">
+  <img alt="figma" src="https://img.shields.io/badge/Acessar%20Layout-Figma-FF57B2">
+</a>
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+- [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/);
+- Além disto é bom ter um editor para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/).
+
+Após tudo configurado e instalado
+
+> Clone este repositório
 
 ```bash
-npm run dev
-# or
-yarn dev
+ git clone https://github.com/vitormarco/worldtrip.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Acesse a pasta pelo terminal/cmd
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+ cd worldtrip
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+> Execute comando para instalar as dependências
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+ yarn
+ # ou
+ npm install
+```
 
-## Learn More
+> execute o script para inicial o projeto
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+ yarn dev
+ # ou
+ npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tecnologias
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Deploy on Vercel
+- ✔️ [ReactJS](https://reactjs.org/)
+- ✔️ [Typescript](https://www.typescriptlang.org/)
+- ✔️ [Next](https://nextjs.org/docs/basic-features/typescript)
+- ✔️ [Chakra](https://chakra-ui.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Veja o arquivo [package.json](https://github.com/vitormarco/worldtrip/blob/master/package.json)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feito com 🧡 por Vítor Marco 👋🏽 [Entre em contato!](https://www.linkedin.com/in/vitor-marco/)

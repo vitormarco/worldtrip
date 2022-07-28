@@ -1,7 +1,6 @@
-<!-- logo
 <p align="center">
-  <img src="#"   width="175px" alt="In Progress" />
-</p> -->
+  <img src="./public/logo.svg"   width="175px" alt="Worlldtrip logo" />
+</p>
 
 <p align="center">
  <a href="#Worldtrip">Sobre</a> •
@@ -12,10 +11,6 @@
 
 # Worldtrip
 
-<p align="center">
-  <img  src="./github/#" width="200px" alt="Logo worldtrip" />
-</p>
-
 Projeto para colocar em prática habilidades do NextJS e ChakraUI. <br />
 Objetivo é criar um produto para fornece viagens, informando assim o usuário sobre seu destino.
 
@@ -24,11 +19,13 @@ Objetivo é criar um produto para fornece viagens, informando assim o usuário s
 
 ## 🎨 Layout
 
-<!-- <p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 8px ">
-  <img src="./github/#" width="50%" alt="#" />
-  <img src="./github/#" width="50%" alt="#" />
-  <img src="./github/#" width="50%" alt="#" />
-</p> -->
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 8px ">
+  <img src="./github/home.png" width="100%" alt="Home" />
+</p>
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 8px ">
+  <img src="./github/europe.png" width="100%" alt="Europa" />
+</p>
 
 <a href="https://www.figma.com/file/LkxnIU9mg86SqrV6QBsRvw/Worldtrip?node-id=0%3A1">
   <img alt="figma" src="https://img.shields.io/badge/Acessar%20Layout-Figma-FF57B2">

@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 import { Header } from '../components/Header';
 
 interface IMainProps {
@@ -7,11 +7,10 @@ interface IMainProps {
 
 export const Main = ({ children }: IMainProps) => {
   return (
-    <>
-      <Header />
-      <Flex as="main" w="100%" minH="100vh" direction="column">
+    <Flex as="main" w="100%" direction="column">
+      <Box w="100%" maxW="1400px" m="auto">
         {children}
-      </Flex>
-    </>
+      </Box>
+    </Flex>
   );
 };

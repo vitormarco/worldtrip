@@ -22,7 +22,7 @@ export const theme = extendTheme({
     },
   },
   fonts: {
-    heading: ['Poppins', 'sans-serif'],
+    heading: 'Poppins',
     body: 'Poppins',
   },
   styles: {

@@ -1,5 +1,4 @@
 import { Box, Flex } from '@chakra-ui/react';
-import { Header } from '../components/Header';
 
 interface IMainProps {
   children: React.ReactNode;

@@ -1,0 +1,25 @@
+.wrapperSwipper {
+  :global(.swiper-button-prev),
+  :global(.swiper-button-next) {
+    color: #ffba08;
+  }
+
+  :global(.swiper-button-prev) {
+    left: 30px;
+  }
+
+  :global(.swiper-button-next) {
+    right: 30px;
+  }
+
+  :global(.swiper-pagination-bullet.swiper-pagination-bullet-active) {
+    background: #ffba08;
+  }
+
+  :global(.swiper-pagination-bullet) {
+    background: #999999;
+    opacity: 1;
+    width: 16px;
+    height: 16px;
+  }
+}

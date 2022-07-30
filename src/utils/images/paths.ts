@@ -7,4 +7,5 @@ export const imagesPaths = {
   earth: '/icons/earth.svg',
   museum: '/icons/museum.svg',
   surf: '/icons/surf.svg',
+  europe: '/images/europe.png',
 };

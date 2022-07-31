@@ -3,7 +3,12 @@ import { ParsedUrlQuery } from 'querystring';
 
 import { Header } from '../../components/Header';
 
-import { ContinentDetailBanner, Description, Main } from '../../template';
+import {
+  Cities,
+  ContinentDetailBanner,
+  Description,
+  Main,
+} from '../../template';
 
 interface IContinentProps {
   continent: Record<string, unknown>;
@@ -20,6 +25,7 @@ const Continent: NextPage<IContinentProps> = ({ continent }) => {
       <ContinentDetailBanner />
       <Main>
         <Description />
+        <Cities />
       </Main>
     </>
   );

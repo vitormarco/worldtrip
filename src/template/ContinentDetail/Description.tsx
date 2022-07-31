@@ -26,6 +26,7 @@ export const Description = () => {
     <Flex
       alignItems="center"
       justifyContent="space-between"
+      maxW="1160px"
       mt="80px"
       mb="80px"
     >

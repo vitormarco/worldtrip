@@ -9,4 +9,6 @@ export const imagesPaths = {
   surf: '/icons/surf.svg',
   europe: '/images/europe.png',
   europeBanner: '/images/europeBanner.png',
+  ukFlag: '/images/flags/uk.png',
+  london: '/images/london.png',
 };

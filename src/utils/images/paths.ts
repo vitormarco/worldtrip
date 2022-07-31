@@ -8,4 +8,5 @@ export const imagesPaths = {
   museum: '/icons/museum.svg',
   surf: '/icons/surf.svg',
   europe: '/images/europe.png',
+  europeBanner: '/images/europeBanner.png',
 };

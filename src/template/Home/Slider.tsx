@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import styles from '../../styles/Swiper.module.scss';
 import { SliderItem } from './SliderItem';
+import Link from 'next/link';
 
 export const Slider = () => {
   return (
@@ -18,19 +19,39 @@ export const Slider = () => {
         pagination={{ clickable: true }}
       >
         <SwiperSlide>
-          <SliderItem />
+          <Link href="/continent/europe">
+            <a>
+              <SliderItem />
+            </a>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <SliderItem />
+          <Link href="/continent/europe">
+            <a>
+              <SliderItem />
+            </a>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <SliderItem />
+          <Link href="/continent/europe">
+            <a>
+              <SliderItem />
+            </a>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <SliderItem />
+          <Link href="/continent/europe">
+            <a>
+              <SliderItem />
+            </a>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <SliderItem />
+          <Link href="/continent/europe">
+            <a>
+              <SliderItem />
+            </a>
+          </Link>
         </SwiperSlide>
       </Swiper>
     </Box>

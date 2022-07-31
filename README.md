@@ -17,6 +17,15 @@ Objetivo é criar um produto para fornece viagens, informando assim o usuário s
 <h4 align="center"> 🚧 Worldtrip 🚀 Em construção 🚧 </h4>
 <!-- <h4 align="center"> 🚧 Worldtrip ✅ Concluído 🚧 </h4> -->
 
+## ⚙️Funcionalidades
+
+- [x] Criar as telas desktop para:
+  - [x] Home
+  - [x] Detalhe do continente
+- [ ] Telas responsivas
+- [ ] Fake api
+- [ ] Navegação entre tela da home e o detalhe do continente no header
+
 ## 🎨 Layout
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 8px ">
